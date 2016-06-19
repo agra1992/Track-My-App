@@ -1,0 +1,34 @@
+body {
+    padding-top: 50px
+}
+
+body>.navbar {
+    -webkit-transition: background-color .3s ease-in;
+    transition: background-color .3s ease-in
+}
+
+@media (min-width: 768px) {
+    body>.navbar-transparent {
+        background-color: transparent
+    }
+    body>.navbar-transparent .navbar-nav>.open>a {
+        background-color: transparent!important
+    }
+}
+
+.navbar-default {
+	background-color: #375a7f;
+	border-color: transparent;
+	color: white;
+}
+
+.navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
+    margin-left: -15px;
+    color: #fff !important;
+    font-size: 1.5rem;
+}
+
+.navbar-nav > li > a {
+    color: #fff !important;
+    font-size: 1.5rem;
+}
